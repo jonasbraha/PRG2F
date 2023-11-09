@@ -16,5 +16,11 @@ public class Arrays {
         for (int i = 0; i < poleJinak.length; i++) {
             System.out.println(poleJinak[i]);
         }
+
+        int[] numArray = new int[15];
+        for (int i = 0; i < numArray.length ; i++) {
+            numArray[i] = i*5;
+        }
+        System.out.println(Arrays.toString(numArray));
     }
 }
