@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class LoopsPractice {
     public static void main(String[] args) {
- //       System.out.println("Zadej cisla, zadavani ukoncis zadanim -1");
-        Scanner sc = new Scanner(System.in);
-        int input;
+ //       System.out.println("Zadej cisla, zadavani ukoncis zadanim -1");Scanner sc = new Scanner(System.in);int input;
  //       while (input != -1) {
  //           if (input % 2 == 0) {
  //               System.err.println(input);
@@ -20,16 +18,16 @@ public class LoopsPractice {
  //           if (i % 2 == 0) {
  //               System.out.println(i);
  //           }
- //       }
-        System.out.println("Zadej cislo");
-        input = sc.nextInt();
-        boolean prime = true;
-        for (int i = 2; i < input; i++) {
-            if (input % i == 0){
-                prime = false;
-                break;
-            }
-        }
-        System.out.println("Je prvocislo?" + prime);
+  //      }
+ //   System.out.println("Zadej cislo");
+ //     input = sc.nextInt();
+ //     boolean prime = true;
+ //     for (int i = 2; i < input; i++) {
+ //         if (input % i == 0){
+ //             prime = false;
+ //             break;
+ //         }
+ //     }
+ //     System.out.println("Je prvocislo?" + prime);
     }
 }
