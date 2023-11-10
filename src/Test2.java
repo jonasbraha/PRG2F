@@ -15,13 +15,13 @@ public class Test2 {
 //              input = sc.nextInt();}
 
 
-    if (int i = 0; i < 1000; i++){
-            int ticket = (int) (Math.random() * 100 + 1);
-            int counter = 1;
-            System.out.println(ticket);
-            counter++;
-        }
-          System.out.println(counter);
+ //  if (int i = 0; i < 1000; i++){
+ //          int ticket = (int) (Math.random() * 100 + 1);
+ //          int counter = 1;
+ //          System.out.println(ticket);
+ //          counter++;
+ //      }
+ //        System.out.println(counter);
 
 
   //    }
