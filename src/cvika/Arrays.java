@@ -1,5 +1,7 @@
 package cvika;
 
+import java.sql.Array;
+
 public class Arrays {
     public static void main(String[] args) {
         int[] pole = {5, 32, 21, 15};
@@ -21,6 +23,6 @@ public class Arrays {
         for (int i = 0; i < numArray.length ; i++) {
             numArray[i] = i*5;
         }
-        System.out.println(Arrays.toString(numArray));
+        System.out.println(java.util.Arrays.toString(numArray));
     }
 }

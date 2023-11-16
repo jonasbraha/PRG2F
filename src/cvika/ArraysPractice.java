@@ -27,10 +27,10 @@ public class ArraysPractice {
         }
 
         //vypis zig zag
-        for (int i = 0; i < ; i++) {
+    //    for (int i = 0; i < ; i++) {
 
             
         }
 
     }
-}
+
