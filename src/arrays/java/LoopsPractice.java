@@ -1,4 +1,4 @@
-package cvika;
+package arrays.java;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

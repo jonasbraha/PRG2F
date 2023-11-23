@@ -1,4 +1,4 @@
-package cvika;
+package arrays.java;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -26,10 +26,15 @@ public class GuessArray {
             System.out.println("Tipni cislo");
             guess = sc.nextInt();
 
+            // || znamena nebo
+            if (guess < 0 || guess > 15){
+                continue;
+            }
+
             //Hledam jestli cislo neni v poli
             for (int j = 0; j < guessArray.length; j++) {
                 if (guess == guessArray[j]) {
-                score += 100;
+                    score += 100;
                     System.out.println("Uhadl jsi!");
                     guessArray[j] = -1;
                     System.out.println(Arrays.toString(guessArray));
