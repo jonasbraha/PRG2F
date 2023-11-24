@@ -8,6 +8,7 @@ public class Convert {
         for (int i = 0; i < binaryArray.length; i++) {
             result += binaryArray[i] * (int)Math.pow(2,i);
         }
+
         System.out.println(result);
     }
 }
