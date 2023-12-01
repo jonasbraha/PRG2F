@@ -1,4 +1,4 @@
-package arrays.java;
+package arrays;
 
 import java.sql.Array;
 

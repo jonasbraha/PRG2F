@@ -1,4 +1,4 @@
-package arrays.java;
+package arrays;
 
 public class Convert {
     public static void main(String[] args) {
